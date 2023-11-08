@@ -104,7 +104,6 @@ def PandasAI():
                 user_prompt = st.text_input("Please ask your question about the dataframe!")
                 if st.button("Generate"):
                     with st.spinner("Please wait for PandasAI to Generate....."):
-
                         st.write(pandas_ai.run(df,user_prompt))
                 else:
                     st. error("Please enter your prompt")
