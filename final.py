@@ -24,8 +24,7 @@ import base64
 import assemblyai as aai
 import os
 import tempfile
-import xlsxwriter
-from xlsxwriter import Workbook
+
 
 
 st.set_page_config(page_icon="🤖",page_title='Chat_model',layout='wide')
